@@ -22,11 +22,11 @@ Idea来源于[CTFshow](https://www.ctf.show/)周末的极限挑战赛
 python bashFuck.py
 ```
 
-![image-20230303214213304](https://nssctf.wdf.ink//img/WDTJ/202303032142258.png)
+![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h16m1677852984445.png)
 
-![image-20230303214251065](https://nssctf.wdf.ink//img/WDTJ/202303032142995.png)
+![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h11m1677852696300.png)
 
 效果展示：
 
-![image-20230303214530937](https://nssctf.wdf.ink//img/WDTJ/202303032145972.png)
+![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h16m1677852969952.png)
 
