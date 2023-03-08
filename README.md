@@ -60,7 +60,11 @@ Idea来源于[CTFshow](https://www.ctf.show/)周末的极限挑战赛
 
 ![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-8-d14-h24m1678256674906.png)
 
-当然 如果 `var` 是 `#` / `_` / `?`这样的 那么字符本身为变量，输出 `1`，如果var为NULL即不带参数 则为 `0`
+当然 如果 `var` 是 `#` / `_` / `?`这样的本来获取的值就是一个字符特殊参数 那么字符本身为变量，输出 `1`，
+
+如果var为NULL即不带参数 则为 `0`
+
+![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-8-d17-h37m1678268229611.png)
 
 ![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-8-d14-h25m1678256730074.png)
 
@@ -137,7 +141,9 @@ https://www.gnu.org/software/bash/manual/bash.html
 
 ![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-8-d14-h26m1678256775168.png)
 
-- `${!_}`是一个特殊的参数，它表示上一个命令的最后一个参数。(如果上一个指令的输出是`0`的话，就能构造出sh了）
+- `${#}`表示接受参数个数，在终端中参数为空 值为 0
+- `${?}`表示上一条命令的退出状态，如果上一条命令异常 `${?}`值为1，如果正常退出则为0
+- `${_}`表示上一个命令的最后一个参数。(如果上一个指令的输出是`0`的话，就能构造出sh了）
 
 那么对于bash_x的三种写法也就很任意理解了：
 
