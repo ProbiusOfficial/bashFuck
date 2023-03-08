@@ -13,10 +13,20 @@ def get_oct(c):  # 将字符的ASCII值转换为二进制字符串，然后将�
     return (oct(ord(c)))[2:]
 
 
-def nomal_otc(cmd):  # 注意,该方法无法执行带参数命令,如:ls -l
+# def nomal_otc(cmd):  # 注意,该方法无法执行带参数命令,如:ls -l
+#     payload = '$\''
+#     for c in cmd:
+#         payload += '\\' + get_oct(c)
+#     payload += '\''
+#     return info(payload)
+
+def common_otc(cmd):
     payload = '$\''
     for c in cmd:
-        payload += '\\' + get_oct(c)
+        if c == ' ':
+            payload += '\' $\''
+        else:
+            payload += '\\' + get_oct(c)
     payload += '\''
     return info(payload)
 
