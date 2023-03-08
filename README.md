@@ -40,7 +40,9 @@ Idea来源于[CTFshow](https://www.ctf.show/)周末的极限挑战赛
 
 比如，在bash中，支持二进制的表示整数的形式：`$((2#binary))`。
 
-通过阅读bash的参考文档https://www.gnu.org/software/bash/manual/bash.html，我们知道`$`作为一个特殊字符，有多样化的功能，比如`$()`可用来表示命令替换或者算术扩展。
+通过阅读bash的参考文档https://www.gnu.org/software/bash/manual/bash.html 
+
+我们知道`$`作为一个特殊字符，有多样化的功能，比如`$()`可用来表示命令替换或者算术扩展。
 
 在这里我们引入 `$(())` 也就是 算术扩展，让其在括号中执行运算再替换到当前位置。
 
