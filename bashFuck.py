@@ -78,7 +78,7 @@ def bashfuck_y(cmd):
 def Generate(cmd):
     print("Command: " + cmd)
     print("Payload generated as follows:")
-    print(nomal_otc(cmd))
+    print(common_otc(cmd))
     print(bashfuck_x(cmd, 'bit'))
     print(bashfuck_x(cmd, 'zero'))
     print(bashfuck_x(cmd, 'c'))
