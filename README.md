@@ -28,6 +28,18 @@ Idea来源于[CTFshow](https://www.ctf.show/)周末的极限挑战赛
 
 (后面不定期有各种有意思的挑战赛哦~欢迎各位师傅来平台玩呀)
 
+## **Usage**
+
+使用python3运行bashFuck.py文件即可，根据提示输入你的命令，程序会自动为你生成从最基本的`$'\xxx'`形式到更复杂的形式。
+
+```Bash
+python bashFuck.py
+```
+
+![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h16m1677852984445.png)
+
+![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h11m1677852696300.png)
+
 ## bashFuck-Wiki
 
 ### 前言
@@ -232,17 +244,6 @@ Payload = __=$(())&&${!__}<<<${!__}\<\<\<\$\'\\$((~$(($((~$(())))$((~$(())))))))
 
 除开上面的几种写法，利用特性其实还能构造出不同的payload，或许还有一些方法没有被探索到，如果上面的文档存在错误欢迎师傅们指出捏，如果有新的想法也欢迎师傅们讨论。
 
-## **Usage**
-
-使用python3运行bashFuck.py文件即可，根据提示输入你的命令，程序会自动为你生成从最基本的`$'\xxx'`形式到更复杂的形式。
-
-```Bash
-python bashFuck.py
-```
-
-![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h16m1677852984445.png)
-
-![](https://fastly.jsdelivr.net/gh/ProbiusOfficial/My_pic@main/2023y-3m-3-d22-h11m1677852696300.png)
 
 效果展示：
 
