@@ -2,6 +2,10 @@
 
 针对Linux终端 bashshell 的无字母命令执行的骚操作x  
 
+支持在线生成：https://probiusofficial.github.io/bashFuck/
+
+Used in [【RCE-labs · level 9-12: BashFuck - 无字母命令执行】](https://github.com/ProbiusOfficial/RCE-labs) to simplify the generation process.
+
 目前可以实现的字符集：  
 
   
@@ -29,6 +33,8 @@ Idea来源于[CTFshow](https://www.ctf.show/)周末的极限挑战赛
 (后面不定期有各种有意思的挑战赛哦~欢迎各位师傅来平台玩呀)
 
 ## **Usage**
+
+*现已支持在线生成：https://probiusofficial.github.io/bashFuck/
 
 使用python3运行bashFuck.py文件即可，根据提示输入你的命令，程序会自动为你生成从最基本的`$'\xxx'`形式到更复杂的形式。
 
